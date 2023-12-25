@@ -11,6 +11,7 @@ export const Landing = () => {
 
             <main>
                 <Outlet />
+                <div className="h-[2500px]"></div>
             </main>
 
             <Layouts.Footer />
