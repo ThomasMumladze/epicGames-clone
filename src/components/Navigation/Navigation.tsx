@@ -12,7 +12,7 @@ export const Navigation = () => {
                     <Link to={"/support"}>support</Link>
                 </li>
                 <li>
-                    <a href="https://www.unrealengine.com/en-US/">undreal engine</a>
+                    <a href="https://www.unrealengine.com/en-US/">unreal engine</a>
                 </li>
             </ul>
         </nav>
