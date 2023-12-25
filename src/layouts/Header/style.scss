@@ -1,0 +1,33 @@
+header {
+    align-items: center;
+    display: flex;
+    --drawer-main-cta-height: 5.875rem;
+    --drawer-padding-block-end: 1.5rem;
+    --drawer-padding-block-start: 0.5rem;
+    --drawer-toolbar-height: 2.5rem;
+    padding-block: 1.25rem;
+    padding-inline: 1.5rem;
+    position: relative;
+    --transform-direction: 1;
+    z-index: 9000;
+
+    .epic-shield {
+        gap: 1rem;
+    }
+
+    .store {
+        img {
+            height: 32px;
+            width: 54px;
+        }
+    }
+
+    .header_body {
+        align-items: center;
+        box-sizing: border-box;
+        column-gap: 1.5rem;
+        display: flex;
+        flex-grow: 1;
+        width: 100%;
+    }
+}

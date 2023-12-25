@@ -8,6 +8,7 @@ const elementRoute = createRoutesFromElements(
         <Route index element={<Pages.Discover />} />
         <Route path="/browse" element={<Pages.Browse />} />
         <Route path="/distribution" element={<Pages.Distribution />} />
+        <Route path="/support" element={<Pages.Support />} />
     </Route>
 );
 

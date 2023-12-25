@@ -1,5 +1,20 @@
+import { Link } from "react-router-dom";
 import "./style.scss";
 
 export const Navigation = () => {
-    return <nav></nav>;
+    return (
+        <nav>
+            <ul className="nav-list">
+                <li>
+                    <Link to={"/distribution"}>distribution</Link>
+                </li>
+                <li>
+                    <Link to={"/support"}>support</Link>
+                </li>
+                <li>
+                    <a href="https://www.unrealengine.com/en-US/">undreal engine</a>
+                </li>
+            </ul>
+        </nav>
+    );
 };
