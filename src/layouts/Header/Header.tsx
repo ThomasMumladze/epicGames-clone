@@ -11,7 +11,7 @@ import { Link } from "react-router-dom";
 export const Header = () => {
     return (
         <header className="w-[100%] bg-[#18181c] h-[4.5rem]">
-            <div className="epic-shield">
+            <div className="epic-shield mr-3">
                 <DropDawnMenu.EpicStoreMenu />
             </div>
 

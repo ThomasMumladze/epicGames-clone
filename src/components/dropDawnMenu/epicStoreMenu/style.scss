@@ -14,7 +14,7 @@
         .arrowDawn {
             svg {
                 fill: #aaaaae;
-                transform: translate(0px, -2px);
+                transform: translate(0px, 0px);
                 transition: 0.25s ease-in-out;
             }
         }
@@ -24,7 +24,7 @@
                 .arrowDawn {
                     svg {
                         fill: #fff;
-                        transform: translate(0px, 0px);
+                        transform: translate(0px, 2px);
                     }
                 }
             }
