@@ -1,6 +1,8 @@
+import { DownloadButton } from "./downloadButton/DownloadButton";
 import { Navigation } from "./Navigation/Navigation";
 
 export const Components = {
+    DownloadButton,
     Navigation,
 };
 
