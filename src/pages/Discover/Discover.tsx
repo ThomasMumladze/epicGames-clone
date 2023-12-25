@@ -1,5 +1,7 @@
 import "./style.scss";
 
+import React from "react";
+
 export const Discover = () => {
-    return <div>Discover</div>;
+    return <React.Fragment></React.Fragment>;
 };

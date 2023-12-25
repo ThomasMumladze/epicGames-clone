@@ -9,6 +9,7 @@ const elementRoute = createRoutesFromElements(
         <Route path="/browse" element={<Pages.Browse />} />
         <Route path="/distribution" element={<Pages.Distribution />} />
         <Route path="/support" element={<Pages.Support />} />
+        <Route path="/news" element={<Pages.News />} />
     </Route>
 );
 
