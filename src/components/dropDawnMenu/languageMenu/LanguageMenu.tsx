@@ -1,5 +1,12 @@
 import "./style.scss";
+import { Svg } from "../../../services/constants/Svg";
 
 export const LanguageMenu = () => {
-    return <div>LanguageMenu</div>;
+    console.log();
+
+    return (
+        <div className="langaugeDropDawnMenu">
+            <div className="langauge-svg">{Svg.languages}</div>
+        </div>
+    );
 };

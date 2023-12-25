@@ -1,0 +1,24 @@
+.langaugeDropDawnMenu {
+    height: max-content;
+    position: relative;
+    width: max-content;
+
+    .langauge-svg {
+        cursor: pointer;
+        height: 24px;
+        width: 24px;
+
+        svg {
+            fill: #aaaaae;
+            height: 100%;
+            transition: 0.2s ease-in-out;
+            width: 100%;
+        }
+
+        &:hover {
+            svg {
+                fill: #fff;
+            }
+        }
+    }
+}
