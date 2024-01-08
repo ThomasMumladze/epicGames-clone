@@ -20,7 +20,7 @@ export const Filter = (props: Props) => {
                 </div>
 
                 {location.pathname !== "/support" ? (
-                    <div className="search-nav ml-[20px]">
+                    <div className="search-nav ml-[20px] ">
                         <ul>
                             <li
                                 className={`${
