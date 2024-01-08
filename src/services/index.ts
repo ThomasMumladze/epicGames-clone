@@ -1,4 +1,4 @@
-import { NavFlyoutStore } from "./constants/navFlyoutStore";
+import { NavFlyoutStore } from "./constants/NavFlyoutStore";
 import { Svg } from "./constants/Svg";
 
 export const Constants = {

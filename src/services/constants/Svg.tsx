@@ -154,4 +154,5 @@ export const Svg = {
     epicShield,
     arrowDawn,
     stick,
+    storeNavigationSvg,
 };
