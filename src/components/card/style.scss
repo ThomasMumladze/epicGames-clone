@@ -1,0 +1,15 @@
+.wrapper {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+
+    &:not(:first-child) {
+        margin-left: 32px;
+    }
+
+    img {
+        border-radius: 16px;
+        height: 100%;
+        width: 100%;
+    }
+}
