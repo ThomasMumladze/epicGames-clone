@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import "./style.scss";
 
 interface Props {
@@ -7,7 +8,9 @@ interface Props {
 export const Card = (props: Props) => {
     return (
         <div className="wrapper" style={{ width: `calc(100% / ${props.widthToDivision} - 16px)` }}>
-            <img src={props.imgSrc} alt="..." />
+            <Link to={"/"} reloadDocument>
+                <img src={props.imgSrc} alt="..." />
+            </Link>
         </div>
     );
 };
